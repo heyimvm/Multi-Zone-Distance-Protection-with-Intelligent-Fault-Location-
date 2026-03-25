@@ -3,6 +3,7 @@ function plot_waveforms(t, Vabc, Iabc, fault_info, cfg)
 t_ms = t * 1e3;
 figure('Name','Fault Waveforms','NumberTitle','off','Position',[50 50 1200 700]);
 
+%plot the varaibles of Phase voltages
 subplot(2,1,1);
 plot(t_ms, Vabc(:,1)/1e3, 'b-',  'LineWidth',1.0, 'DisplayName','Va'); hold on;
 plot(t_ms, Vabc(:,2)/1e3, 'r--', 'LineWidth',1.0, 'DisplayName','Vb');

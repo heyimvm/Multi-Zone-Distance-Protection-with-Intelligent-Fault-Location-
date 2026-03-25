@@ -213,6 +213,7 @@ switch upper(fault_class.type(1:min(2,end)))
 end
 end
 
+%USED VARIABLES 
 % =========================================================================
 function p = median_phasor(x)
 %MEDIAN_PHASOR  Robust phasor estimate using angle-magnitude median.

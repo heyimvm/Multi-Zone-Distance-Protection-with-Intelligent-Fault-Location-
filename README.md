@@ -76,15 +76,6 @@ main
 
 ---
 
-## Fault Location Methods
-
-| Method | Type | Notes |
-|--------|------|-------|
-| Takagi | Single-ended | Uses incremental current |
-| Eriksson | Single-ended | Compensates for remote infeed |
-| Reactance | Single-ended | Simple X/X1 ratio |
-| Ensemble | Weighted average | Best overall accuracy |
-
 ---
 
 ## Running Tests
@@ -111,5 +102,4 @@ t (s), Va (V), Vb (V), Vc (V), Ia (A), Ib (A), Ic (A)
 1. Phadke & Thorp — *Computer Relaying for Power Systems*, Wiley 2009
 2. Takagi et al. — IEEE Trans. PAS, 1982
 3. Eriksson et al. — IEEE Trans. PWRD, 1985
-4. Anderson — *Analysis of Faulted Power Systems*, IEEE Press 1995
-5. IEEE Std C37.113-2015 — Protective Relay Applications to Transmission Lines
+4. IEEE Std C37.113-2015 — Protective Relay Applications to Transmission Lines

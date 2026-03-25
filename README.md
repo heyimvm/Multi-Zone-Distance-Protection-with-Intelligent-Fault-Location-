@@ -1,10 +1,5 @@
 # Multi-Zone Distance Protection with Intelligent Fault Location
 ### PSCAD/MATLAB Co-Simulated Transmission Network
-
-![MATLAB](https://img.shields.io/badge/MATLAB-R2021a%2B-blue)
-![Status](https://img.shields.io/badge/status-active-green)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
-
 ---
 
 ## Overview
